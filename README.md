@@ -118,6 +118,27 @@ recommended for a *Journal of Statistical Software* contribution:
 motivation → methods → implementation → usage → validation → reproducibility →
 computational details → summary.
 
+## Clinical use and validation disclaimer
+
+`sandwichrand` is research software provided **"AS IS"**, without warranty of
+any kind, express or implied. It has **not been validated** as a computerised
+system under Good Clinical Practice (GCP), Good Clinical/Manufacturing
+Practice (GxP), 21 CFR Part 11, EU GMP Annex 11, or any other regulatory
+framework.
+
+Before using `sandwichrand` to generate allocation sequences for a
+registration trial, or for any trial whose results may support a regulatory
+submission, the sponsor is solely responsible for:
+
+* independently validating the software and the generated sequences under its
+  own quality system;
+* maintaining allocation concealment (ICH E9), including keeping the seed,
+  the block structure and any stream information confidential; and
+* ensuring compliance with all applicable regulations.
+
+The authors accept no liability for any consequences arising from the use of
+this software.
+
 ## License
 
 Apache License (>= 2.0). The SMR scheme was designed by Bingshun Wang.

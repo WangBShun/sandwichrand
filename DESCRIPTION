@@ -11,7 +11,7 @@ Authors@R: c(
 Description: Generates allocation sequences for randomized controlled trials
     using the sandwich mixed randomization (SMR) scheme, together with
     verification, diagnostics, and release utilities.
-License: Apache License (>= 2.0) + file LICENSE
+License: Apache License (>= 2.0)
 Encoding: UTF-8
 URL: https://github.com/wangbshun/sandwichrand
 BugReports: https://github.com/wangbshun/sandwichrand/issues

@@ -81,6 +81,26 @@ remain confidential. \code{keep.blocks = FALSE} drops the block columns from
 copy of the structure stays available in \code{$blocks} for quality control.
 }
 
+\section{Clinical use and validation disclaimer}{
+
+\pkg{sandwichrand} is research software provided \dQuote{AS IS}, without
+warranty of any kind, express or implied. It has not been validated as a
+computerised system under Good Clinical Practice (GCP), Good
+Clinical/Manufacturing Practice (GxP), 21 CFR Part 11, EU GMP Annex 11, or
+any other regulatory framework.
+
+Before using \pkg{sandwichrand} to generate allocation sequences for a
+registration trial, or for any trial whose results may support a regulatory
+submission, the sponsor is solely responsible for: (i) independently
+validating the software and the generated sequences under its own quality
+system; (ii) maintaining allocation concealment (ICH E9), including keeping
+the seed, the block structure and any stream information confidential; and
+(iii) ensuring compliance with all applicable regulations.
+
+The authors accept no liability for any consequences arising from the use
+of this software.
+}
+
 \references{
 Wang B, Wang X, Ni C, Xie J, Wu S, Wu Y, Shen Y, Dong Z, Lv W, He Y (2026).
 \dQuote{Reducing selection bias risk to enhance RCT validity: sandwich mixed randomization outperforms permuted block design.}
